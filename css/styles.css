@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-img {
+
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+
+}
+
+body {
+    text-align: center;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    max-width: 350px;
+    margin: 50px auto;
+}
+
+.main-card {
+
+    text-align: center;
+    width: 220px;
+    height: 580px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.img-container {
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+}
+
+.text-container h1,
+h4 {
+    color: hsl(223, 47%, 23%);
+}
+
+
+.plan-container {
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    margin: 20px auto;
+    width: 85%;
+}
+
+.plan-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.plan-price img {
+    padding: 8px 15px 8px 8px;
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 10px auto;
+    width: 85%;
+    font-family: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in;
+    opacity: 1;
+    box-shadow: 0 15px 20px 0 hsl(223, 47%, 23%, .2);
+}
+
+.payment-container p {
+    padding: 10px;
+    cursor: pointer;
+    margin: 0;
+    opacity: .9;
+}
+
+.payment-container p:hover {
+    text-shadow: hsl(223, 47%, 23%, 2.1, .5, 1.6);
+    opacity: 2;
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+
+.btn:hover {
+    opacity: .6;
+    font-weight: bold;
+}
+
+.plan-container a {
+    font-weight: bold;
+}
+
+.plan-container a:hover {
+    opacity: .5;
+}
